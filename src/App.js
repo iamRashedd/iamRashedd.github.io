@@ -1,22 +1,32 @@
-import logo from './logo.svg';
+import picture from './rashed.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={picture} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Rashedul Islam
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/iamRashedd/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Github Profile
         </a>
+
+        <a
+          className="App-link"
+          href="https://www.facebook.com/joker.rashed"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Facebook Profile
+        </a>
+
       </header>
     </div>
   );
